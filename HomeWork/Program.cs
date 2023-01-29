@@ -31,3 +31,8 @@ int CountLessThan(string[] input, int n) {
 
     return count;
 }
+
+string[] AskArray() {
+    Console.WriteLine("Введите значения через пробел: ");
+    return Console.ReadLine().Split(" ");
+}
